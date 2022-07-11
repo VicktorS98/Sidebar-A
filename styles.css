@@ -22,10 +22,6 @@ img {
     max-width: 100%;
 }
 
-a {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-}
-
 .section-sidebar {
     position: absolute;
     display: flex;
@@ -323,6 +319,9 @@ input:checked + .slider:before {
 
 
 @media (max-width: 799px) {
+  *, *::before, *::after {
+    cursor: default;
+  }
   .sidebar {
     all: unset;
     background-color: white;
