@@ -373,7 +373,6 @@ input:checked + .slider:before {
     transform: rotateZ(-45deg)
   }
   .middle-bar {
-    pointer-events: none;
     width: 40px;
     height: 2px;
     background-color: black;
