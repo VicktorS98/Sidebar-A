@@ -318,9 +318,6 @@ input:checked + .slider:before {
 
 
 @media (max-width: 799px) {
-  *, *::before, *::after {
-    cursor: default;
-  }
   .sidebar {
     all: unset;
     background-color: white;
